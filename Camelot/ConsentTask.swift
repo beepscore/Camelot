@@ -17,7 +17,14 @@ public var ConsentTask: ORKOrderedTask {
         document: consentDocument)
     steps += [visualConsentStep]
 
-    //TODO: Add ConsentReviewStep
+    let signature = consentDocument.signatures!.first as! ORKConsentSignature
+
+    let reviewConsentStep = ORKConsentReviewStep(identifier: "ConsentReviewStep",
+        signature: signature, inDocument: consentDocument)
+
+    reviewConsentStep.text = "Review Consent!"
+    reviewConsentStep.reasonForConsent = "Consent to join study"
+    steps += [reviewConsentStep]
 
     // app can use task identifier to retrieve results
     return ORKOrderedTask(identifier: "ConsentTask", steps: steps)
