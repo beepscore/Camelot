@@ -37,7 +37,9 @@ public var ConsentDocument: ORKConsentDocument {
 
     consentDocument.sections = consentSections
 
-    //TODO: signature
+    consentDocument.addSignature(ORKConsentSignature(forPersonWithTitle: nil,
+        dateFormatString: nil,
+        identifier: "ConsentDocumentParticipationSignature"))
 
     return consentDocument
 }
