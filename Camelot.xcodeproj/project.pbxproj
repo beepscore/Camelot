@@ -13,6 +13,7 @@
 		DE1151F81B17918E007B5036 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1151F71B17918E007B5036 /* Images.xcassets */; };
 		DE1151FB1B17918E007B5036 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE1151F91B17918E007B5036 /* LaunchScreen.xib */; };
 		DE1152071B17918E007B5036 /* CamelotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1152061B17918E007B5036 /* CamelotTests.swift */; };
+		DE272EE11B179F9800BF8EC8 /* ConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE272EE01B179F9800BF8EC8 /* ConsentDocument.swift */; };
 		DEBED27A1B179C300049A9D6 /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE17C6AF1B179AB600653C7B /* ResearchKit.framework */; };
 		DEBED27B1B179C300049A9D6 /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DE17C6AF1B179AB600653C7B /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -716,6 +717,7 @@
 		DE17C69F1B179AB600653C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE17C6A01B179AB600653C7B /* ORKJSONSerializationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORKJSONSerializationTests.m; sourceTree = "<group>"; };
 		DE17C6A11B179AB600653C7B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DE272EE01B179F9800BF8EC8 /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentDocument.swift; sourceTree = "<group>"; };
 		DE63BE261B1792B400D7567F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -763,6 +765,7 @@
 			children = (
 				DE1151F01B17918E007B5036 /* AppDelegate.swift */,
 				DE1151F21B17918E007B5036 /* ViewController.swift */,
+				DE272EE01B179F9800BF8EC8 /* ConsentDocument.swift */,
 				DE1151F41B17918E007B5036 /* Main.storyboard */,
 				DE1151F71B17918E007B5036 /* Images.xcassets */,
 				DE1151F91B17918E007B5036 /* LaunchScreen.xib */,
@@ -1867,6 +1870,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE1151F31B17918E007B5036 /* ViewController.swift in Sources */,
+				DE272EE11B179F9800BF8EC8 /* ConsentDocument.swift in Sources */,
 				DE1151F11B17918E007B5036 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
