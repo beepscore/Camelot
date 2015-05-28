@@ -14,7 +14,16 @@ public var ConsentDocument: ORKConsentDocument {
     let consentDocument = ORKConsentDocument()
     consentDocument.title = "Example Consent"
     
-    //TODO: consent section
+    let consentSectionTypes: [ORKConsentSectionType] = [
+        .Overview,
+        .DataGathering,
+        .Privacy,
+        .DataUse,
+        .TimeCommitment,
+        .StudySurvey,
+        .StudyTasks,
+        .Withdrawing
+    ]
     
     //TODO: signature
     
