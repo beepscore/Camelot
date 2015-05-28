@@ -36,6 +36,7 @@
 		DE1152001B17918E007B5036 /* CamelotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamelotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1152051B17918E007B5036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE1152061B17918E007B5036 /* CamelotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamelotTests.swift; sourceTree = "<group>"; };
+		DE63BE261B1792B400D7567F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 		DE1151E21B17918D007B5036 = {
 			isa = PBXGroup;
 			children = (
+				DE63BE261B1792B400D7567F /* README.md */,
 				DE1151ED1B17918E007B5036 /* Camelot */,
 				DE1152031B17918E007B5036 /* CamelotTests */,
 				DE1151EC1B17918E007B5036 /* Products */,
@@ -409,6 +411,7 @@
 				DE11520C1B17918E007B5036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE11520D1B17918E007B5036 /* Build configuration list for PBXNativeTarget "CamelotTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +420,7 @@
 				DE11520F1B17918E007B5036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
