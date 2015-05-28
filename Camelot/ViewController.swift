@@ -24,3 +24,14 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController: ORKTaskViewControllerDelegate {
+
+    func taskViewController(taskViewController: ORKTaskViewController,
+        didFinishWithReason reason: ORKTaskViewControllerFinishReason,
+        error: NSError?) {
+
+        // TODO: Handle results using taskViewController.result
+        taskViewController.dismissViewControllerAnimated(true, completion: nil)
+    }
+
+}
