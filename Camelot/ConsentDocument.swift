@@ -13,7 +13,9 @@ public var ConsentDocument: ORKConsentDocument {
     
     let consentDocument = ORKConsentDocument()
     consentDocument.title = "Example Consent"
-    
+
+    // NOTE: order matters. This order creates smooth animated transtions.
+    // Could also add .Custom and .OnlyInDocument
     let consentSectionTypes: [ORKConsentSectionType] = [
         .Overview,
         .DataGathering,
