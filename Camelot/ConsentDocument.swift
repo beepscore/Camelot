@@ -26,8 +26,18 @@ public var ConsentDocument: ORKConsentDocument {
         .StudyTasks,
         .Withdrawing
     ]
-    
+
+    // NOTE: these lines contain similar looking variable names - both "consent" and "content"
+    var consentSections: [ORKConsentSection] = consentSectionTypes.map { contentSectionType in
+        let consentSection = ORKConsentSection(type: contentSectionType)
+        consentSection.summary = "If you wish to complete this study..."
+        consentSection.content = "In this study you will be asked five (wait, no, three!) questions. You will also have your voice recorded for ten seconds."
+        return consentSection
+    }
+
+    consentDocument.sections = consentSections
+
     //TODO: signature
-    
+
     return consentDocument
 }
