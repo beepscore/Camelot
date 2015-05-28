@@ -13,6 +13,8 @@
 		DE1151F81B17918E007B5036 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1151F71B17918E007B5036 /* Images.xcassets */; };
 		DE1151FB1B17918E007B5036 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE1151F91B17918E007B5036 /* LaunchScreen.xib */; };
 		DE1152071B17918E007B5036 /* CamelotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1152061B17918E007B5036 /* CamelotTests.swift */; };
+		DEBED27A1B179C300049A9D6 /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE17C6AF1B179AB600653C7B /* ResearchKit.framework */; };
+		DEBED27B1B179C300049A9D6 /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DE17C6AF1B179AB600653C7B /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +60,28 @@
 			remoteGlobalIDString = 86CC8E9A1AC09332001CCD89;
 			remoteInfo = ResearchKitTests;
 		};
+		DEBED27C1B179C300049A9D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE17C6321B179AB500653C7B /* ResearchKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B183A4731A8535D100C76870;
+			remoteInfo = ResearchKit;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DEBED2811B179C310049A9D6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DEBED27B1B179C300049A9D6 /* ResearchKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DE1151EB1B17918E007B5036 /* Camelot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camelot.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -701,6 +724,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEBED27A1B179C300049A9D6 /* ResearchKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1655,10 +1679,12 @@
 				DE1151E71B17918E007B5036 /* Sources */,
 				DE1151E81B17918E007B5036 /* Frameworks */,
 				DE1151E91B17918E007B5036 /* Resources */,
+				DEBED2811B179C310049A9D6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DEBED27D1B179C300049A9D6 /* PBXTargetDependency */,
 			);
 			name = Camelot;
 			productName = Camelot;
@@ -1860,6 +1886,11 @@
 			isa = PBXTargetDependency;
 			target = DE1151EA1B17918E007B5036 /* Camelot */;
 			targetProxy = DE1152011B17918E007B5036 /* PBXContainerItemProxy */;
+		};
+		DEBED27D1B179C300049A9D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ResearchKit;
+			targetProxy = DEBED27C1B179C300049A9D6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
