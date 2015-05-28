@@ -7,3 +7,16 @@
 //
 
 import Foundation
+import ResearchKit
+
+public var ConsentDocument: ORKConsentDocument {
+    
+    let consentDocument = ORKConsentDocument()
+    consentDocument.title = "Example Consent"
+    
+    //TODO: consent section
+    
+    //TODO: signature
+    
+    return consentDocument
+}
