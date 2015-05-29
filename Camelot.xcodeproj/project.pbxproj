@@ -14,6 +14,7 @@
 		DE1151FB1B17918E007B5036 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE1151F91B17918E007B5036 /* LaunchScreen.xib */; };
 		DE1152071B17918E007B5036 /* CamelotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1152061B17918E007B5036 /* CamelotTests.swift */; };
 		DE272EE11B179F9800BF8EC8 /* ConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE272EE01B179F9800BF8EC8 /* ConsentDocument.swift */; };
+		DE5929111B183C370060360E /* MicrophoneTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5929101B183C370060360E /* MicrophoneTask.swift */; };
 		DEBED27A1B179C300049A9D6 /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE17C6AF1B179AB600653C7B /* ResearchKit.framework */; };
 		DEBED27B1B179C300049A9D6 /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DE17C6AF1B179AB600653C7B /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DEED0D101B17DB8200B36A5A /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED0D0F1B17DB8200B36A5A /* ConsentTask.swift */; };
@@ -720,6 +721,7 @@
 		DE17C6A01B179AB600653C7B /* ORKJSONSerializationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORKJSONSerializationTests.m; sourceTree = "<group>"; };
 		DE17C6A11B179AB600653C7B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DE272EE01B179F9800BF8EC8 /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentDocument.swift; sourceTree = "<group>"; };
+		DE5929101B183C370060360E /* MicrophoneTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicrophoneTask.swift; sourceTree = "<group>"; };
 		DE63BE261B1792B400D7567F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DEED0D0F1B17DB8200B36A5A /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
 		DEED0D161B17E50300B36A5A /* SurveyTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTask.swift; sourceTree = "<group>"; };
@@ -776,6 +778,7 @@
 				DE1151F91B17918E007B5036 /* LaunchScreen.xib */,
 				DE1151EE1B17918E007B5036 /* Supporting Files */,
 				DEED0D161B17E50300B36A5A /* SurveyTask.swift */,
+				DE5929101B183C370060360E /* MicrophoneTask.swift */,
 			);
 			path = Camelot;
 			sourceTree = "<group>";
@@ -1877,6 +1880,7 @@
 			files = (
 				DE1151F31B17918E007B5036 /* ViewController.swift in Sources */,
 				DEED0D101B17DB8200B36A5A /* ConsentTask.swift in Sources */,
+				DE5929111B183C370060360E /* MicrophoneTask.swift in Sources */,
 				DEED0D171B17E50300B36A5A /* SurveyTask.swift in Sources */,
 				DE272EE11B179F9800BF8EC8 /* ConsentDocument.swift in Sources */,
 				DE1151F11B17918E007B5036 /* AppDelegate.swift in Sources */,
