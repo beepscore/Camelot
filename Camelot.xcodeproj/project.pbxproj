@@ -17,6 +17,7 @@
 		DEBED27A1B179C300049A9D6 /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE17C6AF1B179AB600653C7B /* ResearchKit.framework */; };
 		DEBED27B1B179C300049A9D6 /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DE17C6AF1B179AB600653C7B /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DEED0D101B17DB8200B36A5A /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED0D0F1B17DB8200B36A5A /* ConsentTask.swift */; };
+		DEED0D171B17E50300B36A5A /* SurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED0D161B17E50300B36A5A /* SurveyTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -721,6 +722,7 @@
 		DE272EE01B179F9800BF8EC8 /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentDocument.swift; sourceTree = "<group>"; };
 		DE63BE261B1792B400D7567F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DEED0D0F1B17DB8200B36A5A /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
+		DEED0D161B17E50300B36A5A /* SurveyTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -773,6 +775,7 @@
 				DE1151F71B17918E007B5036 /* Images.xcassets */,
 				DE1151F91B17918E007B5036 /* LaunchScreen.xib */,
 				DE1151EE1B17918E007B5036 /* Supporting Files */,
+				DEED0D161B17E50300B36A5A /* SurveyTask.swift */,
 			);
 			path = Camelot;
 			sourceTree = "<group>";
@@ -1874,6 +1877,7 @@
 			files = (
 				DE1151F31B17918E007B5036 /* ViewController.swift in Sources */,
 				DEED0D101B17DB8200B36A5A /* ConsentTask.swift in Sources */,
+				DEED0D171B17E50300B36A5A /* SurveyTask.swift in Sources */,
 				DE272EE11B179F9800BF8EC8 /* ConsentDocument.swift in Sources */,
 				DE1151F11B17918E007B5036 /* AppDelegate.swift in Sources */,
 			);
