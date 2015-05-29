@@ -12,7 +12,11 @@ public var SurveyTask: ORKOrderedTask {
 
     var steps = [ORKStep]()
 
-    //TODO: add instructions step
+    //NOTE: instructionStep can have an image
+    let instructionStep = ORKInstructionStep(identifier: "IntroStep")
+    instructionStep.title = "The Questions Three"
+    instructionStep.text = "Who would cross the Bridge of Death must answer me these questions three, ere the other side they see."
+    steps += [instructionStep]
 
     //TODO: add name question
 
