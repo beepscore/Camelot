@@ -34,12 +34,23 @@
                                     <action selector="surveyTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gWP-g3-QBb"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZcV-dt-cOR">
+                                <rect key="frame" x="259" y="320" width="82" height="30"/>
+                                <state key="normal" title="Microphone">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="microphoneTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="OjS-BW-xGj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="eA8-hm-meB" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="100" id="1Zs-kO-6Zj"/>
                             <constraint firstAttribute="centerX" secondItem="skc-w7-Vpt" secondAttribute="centerX" id="ZIW-5j-cxA"/>
+                            <constraint firstAttribute="centerX" secondItem="ZcV-dt-cOR" secondAttribute="centerX" id="dCo-cA-xJJ"/>
                             <constraint firstItem="skc-w7-Vpt" firstAttribute="top" secondItem="eA8-hm-meB" secondAttribute="bottom" constant="80" id="dmX-r7-hd6"/>
+                            <constraint firstItem="ZcV-dt-cOR" firstAttribute="top" secondItem="skc-w7-Vpt" secondAttribute="bottom" constant="80" id="sJR-fO-Lk2"/>
                             <constraint firstAttribute="centerX" secondItem="eA8-hm-meB" secondAttribute="centerX" id="uz9-8T-KwU"/>
                         </constraints>
                     </view>
